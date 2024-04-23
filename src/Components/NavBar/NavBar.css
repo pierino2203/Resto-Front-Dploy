@@ -1,0 +1,46 @@
+#logoNavBarImg {
+    border-radius: 7px
+}
+
+#carrito {
+    position: fixed;
+    z-index: 15;
+    background-color: rgb(255, 255, 255);
+    height: 7vh;
+    width: 7vh;
+    display: flex;
+    top: 2%;
+    right: 3%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: thin;
+}
+
+#carrito h1 {
+    font-size: large;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: thin;
+    border-color: crimson;
+    min-width: 50%;
+}
+.divLogoButtonNavBar{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+}
+.divLogoButtonNavBar img {
+    margin-right: 7px
+}
+
+.h1-button-user{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 12px;
+    font-size: 17px;
+    font-weight: bolder;
+    align-self: center;
+}
